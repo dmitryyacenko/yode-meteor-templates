@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans:300,400,600');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.container{
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+
+}
+div.container .text{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.4;
+    margin: 20px 0;
+}
+header{
+    font-family: "Open Sans", sans-serif;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0,0,0,0.7);
+    background-blend-mode: multiply;
+    position: relative;
+    background-position: center;
+}
+header .opacity-holder{
+    width: 100%;
+    position: absolute;
+    height: 40px;
+    left:0;
+    bottom:0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+}
+header .meta{
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    width: 80%;
+    color:#fff;
+    transition: 0.3s ease;
+}
+
+header .meta .title{
+    font-size: 28px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header .meta .author{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+header .meta .author a{
+    color: #fff;
+}
+
+header .meta .description{
+    font-size: 16px;
+    width: 70%;
+}
